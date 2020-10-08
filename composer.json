@@ -1,0 +1,36 @@
+{
+    "name": "nazmusshakib/aba-generator",
+    "description": "Provides a simple way to generate an ABA file which is used by banks to allow for batch transactions.",
+    "keywords": [
+        "ABA file",
+        "Aba",
+        "Australian Bankers Association",
+        "Batch transactions",
+        "PHP",
+        "Laravel"
+    ],
+    "homepage": "https://github.com/nazmusshakib/aba-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazmus Shakib",
+            "email": "nshakib.se@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NazmusShakib\\AbaGenerator\\" : "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NazmusShakib\\AbaGenerator\\Test\\": "tests"
+        }
+    }
+}
